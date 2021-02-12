@@ -6,3 +6,12 @@ var euroToYen = function(euroValue){
 }
 //***** YOUR CODE BELOW ******///
 
+// let ValorIntermedio = dollarToEuro (137);
+
+// let ValorSolicitado = euroToYen (ValorIntermedio);
+
+// otra forma de hacerlo es --->
+
+let ValorSolicitado = euroToYen (dollarToEuro (137));
+
+console.log(ValorSolicitado);
